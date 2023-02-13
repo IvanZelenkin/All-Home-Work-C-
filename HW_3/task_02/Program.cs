@@ -16,4 +16,4 @@ int y2 = InputNumber("Введите координату Y2: ");
 int z1 = InputNumber("Введите координату Z1: ");
 int z2 = InputNumber("Введите координату Z2: ");
 
-System.Console.WriteLine(Math.Round(Math.Pow(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2), 0.5),2));
+System.Console.WriteLine(Math.Round(Math.Pow(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2), 0.5), 2));

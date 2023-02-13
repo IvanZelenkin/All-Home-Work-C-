@@ -8,7 +8,6 @@ int InputNumber(string str)
 }
 int n = InputNumber("Введите число N");
 
-
 for (int count = 1; count <= n; count++)
 {
     System.Console.Write(Math.Pow(count, 3) + ", ");
